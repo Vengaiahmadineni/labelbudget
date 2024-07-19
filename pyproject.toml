@@ -1,0 +1,14 @@
+[project]
+name = "labelbudget"
+version = "0.1.0"
+description = "An active-learning benchmark reporting labels-to-target-accuracy with variance across seeds, next to the random baseline."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
